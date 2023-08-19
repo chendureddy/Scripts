@@ -19,6 +19,7 @@ sudo apt-get install jenkins
 $ sudo systemctl enable jenkins       //Enable the Jenkins service to start at boot
 $ sudo systemctl start jenkins        //Start Jenkins as a service
 $ systemctl status jenkins
+$ cat /var/lib/jenkins/secrets/initialAdminPassword
 ################################################################### Ansible Installation on Ubuntu #########################################################################
 Refer--https://phoenixnap.com/kb/install-ansible-ubuntu-20-04
 $ sudo adduser ansibleadmin
