@@ -15,6 +15,7 @@ $ sudo systemctl start jenkins        //Start Jenkins as a service
 $ java -version
 $ javac -version
 $ systemctl status jenkins
+$  cat /var/lib/jenkins/secrets/initialAdminPassword
 ===============================Install and Configure Maven==================================
 https://maven.apache.org/install.html
 Copy the download link from https://maven.apache.org/download.cgi
