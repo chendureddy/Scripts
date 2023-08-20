@@ -22,9 +22,11 @@ Copy the download link from https://maven.apache.org/download.cgi
 $ sudo su  & cd ~
 $ cd /opt
 $ wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
-$ tar -xzvf apache-maven-3.9.3-bin.tar.gz
+$ tar xzvf apache-maven-3.9.4-bin.tar.gz
+              (or)
+  unzip apache-maven-3.9.4-bin.zip
 $ ls
-$ mv apache-maven-3.9.3 maven
+$ mv apache-maven-3.9.4 maven
 $ ll
 $ cd maven
 $ cd bin/
