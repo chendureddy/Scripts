@@ -92,10 +92,10 @@ $ nano regapp.yml
      chdir: /opt/docker
 
   - name: create tag to push image onto dockerhub
-    command: docker tag regapp:latest ashfaque9x/regapp:latest
+    command: docker tag regapp:latest chendureddy/regapp:latest
 
   - name: push docker image
-    command: docker push ashfaque9x/regapp:latest
+    command: docker push chendureddy/regapp:latest
 
 $ ansible-playbook regapp.yml --check
 $ ansible-playbook regapp.yml
@@ -156,7 +156,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: ashfaque9x/regapp
+        image: chendureddy/regapp
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
